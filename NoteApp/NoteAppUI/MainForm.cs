@@ -7,16 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NoteApp;
 
 namespace NoteAppUI
 {
-    public partial class MainForm1 : Form
+    /// <summary>
+    /// Класс главной формы программы.
+    /// </summary>
+    public partial class MainForm : Form
     {
-        public MainForm1()
+        public MainForm()
         {
-            InitializeComponent();          
-            //rjvty
-            
+            InitializeComponent();
+            var project = new Project();
         }
     }
 }
