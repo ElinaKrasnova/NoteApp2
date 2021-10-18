@@ -61,10 +61,6 @@ namespace NoteApp
                 {
                     throw new ArgumentException("Note name cannot be empty");
                 }
-                if (value.Length > 50)
-                {
-                    throw new ArgumentException("The number of characters in the title of the note cannot exceed 50");
-                }
                 else
                 {
                     _name = value;
